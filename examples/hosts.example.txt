@@ -1,0 +1,14 @@
+# One host per line. Blank lines and #-comments are ignored.
+# A line may be "host", "user@host", or either followed by a # comment.
+#
+#   sshole-scan.sh --hosts-file examples/hosts.example.txt
+
+# plain hostname -- user comes from ~/.ssh/config, or --user
+alpine-build-01.internal
+
+# explicit user
+root@10.1.4.22              # container host
+deploy@edge-router.example  # OpenWrt, reached as deploy
+
+# IPv4 is fine too
+192.0.2.17                  # staging

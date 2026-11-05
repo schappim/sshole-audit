@@ -1,0 +1,7 @@
+# scan output -- contains host names, versions and account classes
+sshole-reports/
+*.json
+*.jsonl
+hosts.txt
+!examples/*
+.DS_Store
